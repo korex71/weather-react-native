@@ -17,13 +17,6 @@ export default function Home() {
   const [icon, setIcon] = useState({name: 'cloud', color: '#FFF'});
   const [background, setBackground] = useState(['#1ed6ff', '#97c1ff']);
 
-  const x = {
-    results: {
-      date: '2020',
-      city_name: 'rj',
-      temp: '24'
-    }
-  }
 
   useEffect(() => {
     (async () => {
